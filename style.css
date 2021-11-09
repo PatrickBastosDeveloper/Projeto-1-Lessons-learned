@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(52, 160, 164);
+  margin: auto;
+}
+
+#container {
+  margin: 75px;
+}
+
+#cabecalho {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  font-size: 25px;
+  font-style: italic;
+  background-color: rgb(118, 200, 147);
+}
+
+/* ref: text-shadow from TreinaWeb https://www.youtube.com/watch?v=rsexmELkh6s */
+.titulo {
+  color: white;
+  margin-top: 14px;
+  margin-left: 17px;
+  width: auto;
+  font-size: 36px;
+  font-family: Alfa Slab One, cursive, sans-serif;
+  letter-spacing: 4px;
+  text-shadow: -15px 25px 1px rgb(118, 200, 147);
+}
+
+#minha_foto {
+  margin-top: 85px;
+  margin-left: 30%;
+  border-radius: 50%;
+  width: 325px;
+  padding: 10px;
+  border: solid rgb(118, 200, 147);
+  position: absolute;
+  z-index: 1;
+}
+
+#logo_github {
+  width: 80px;
+  top: 481px;
+  margin-left: 48%;
+  position: absolute;
+  z-index: 2;
+}
+
+p {
+  font-style: italic;
+  text-align: justify;
+  line-height: 2em;
+  padding: 10px;
+}
+
+#comentario {
+  width: 200px;
+  height: 350px;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  margin: 65%;
+  margin-top: 400px;
+  position: absolute;
+  z-index: 3;
+}
+
+.subtitulo {
+  color: rgb(118, 200, 147);
+  font-size: 25px;
+  font-family: Special Elite, cursive, sans-serif;
+  text-shadow: none;
+  text-align: center;
+}
+
+.lado-direito {
+  width: 500px;
+  border: solid rgb(118, 200, 147);
+  float: left;
+  padding: 10px;
+  margin-top: 950px;
+  margin-left: 40px;
+}
+
+.lado-esquerdo {
+  width: 500px;
+  border: solid rgb(118, 200, 147);
+  float: left;
+  padding: 10px;
+  margin-top: 950px;
+}
+
+li:hover {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+#proximas_licoes {
+  width: 400px;
+  height: 300px;
+  padding: 1%;
+  margin-top: 100px;
+  margin-left: 30%;
+  border: solid rgb(118, 200, 147);
+  display: inline-block;
+}
+
+#tabela {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 30%;
+  padding: 1%;
+}
+
+th , td {
+  border: 1px solid black;
+}
